@@ -158,8 +158,14 @@ padding: 120px 115px;
 }
 #solution{
 
+    /* border: 1px solid red; */
     display: flex;
+    margin: 120px;
+    align-items: center;
     gap: 60px;
+
+}
+.solution-container img{
 
 }
 .solution-text{
@@ -193,4 +199,31 @@ padding: 120px 115px;
         font-size: 16px;
         margin-top: 16px;
 
+}
+#ready{
+    background-color: #F7F6F2;
+    margin: 0 120px;
+    padding: 80px ;
+    text-align: center;
+    margin-top: 120px;
+    border-radius: 12px;
+}
+.ready-container h2{
+    /* margin-top: 80px; */
+}
+.ready-container p{
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382;
+    
+}
+.ready-early button{
+    margin-top: 16px;
+    
+}
+.ready-early p{
+    margin-top: 16px;
+    font-size: 16px;
+    color:#627382;
+    
 }

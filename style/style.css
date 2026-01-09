@@ -160,16 +160,21 @@ padding: 120px 115px;
 
     /* border: 1px solid red; */
     display: flex;
-    margin: 120px;
+    justify-content: center;
+    margin:120px;
+    padding: 120px 0;
     align-items: center;
     gap: 60px;
 
 }
-.solution-container img{
 
+.solution-container{
+     /* border: 1px solid red; */
 }
 .solution-text{
-    margin: auto 0;
+     /* border: 1px solid red; */
+    margin-top: 102px;
+    margin-bottom: 102px;
 }
 .solution-text h3{
     font-size: 16px;
@@ -188,12 +193,18 @@ padding: 120px 115px;
 }
 .solution-li {
     margin-top: 40px;
-    
+    color: #001931;
+        text-decoration: none;
+        list-style-type: none;
+        font-size: 16px;
+        margin-top: 16px;
+
 }
 
 .solution-li li{
     display: flex;
     gap: 6px;
+    color: #001931;
         text-decoration: none;
         list-style-type: none;
         font-size: 16px;
